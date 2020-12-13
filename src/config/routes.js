@@ -6,6 +6,7 @@ import {
   ProfileId,
   InfoCorona,
   DetailDate,
+  Produk,
 } from '../pages';
 
 const routes = [
@@ -43,6 +44,11 @@ const routes = [
     path: '/infoCorona',
     component: InfoCorona,
     isPublic: true,
+  },
+  {
+    path: '/produk',
+    component: Produk,
+    isPublic: false,
   },
   {
     path: '/',

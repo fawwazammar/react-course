@@ -3,7 +3,7 @@ import { getCookie } from '../utils/cookie';
 
 function getTokenAuth() {
   if (getCookie('token') && getCookie('userData')) {
-    return JSON.parse(getCookie('token')).value;
+    return JSON.parse(getCookie('token'));
   }
   return '';
 }

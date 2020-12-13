@@ -1,11 +1,18 @@
+/* eslint-disable react/button-has-type */
 import React, { useEffect, useState } from 'react';
 import { userService } from '../services';
-import { getCookie } from '../utils/cookie';
+import { getCookie, deleteCookie } from '../utils/cookie';
 
 const Profile = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [userDataLoading, setUserDataLoading] = useState(false);
+
+  const logoutClicked = () => {
+    deleteCookie('userData');
+    deleteCookie('token');
+    window.location.replace('/profile');
+  };
 
   const userId = JSON.parse(getCookie('userData')).id;
 
@@ -31,10 +38,20 @@ const Profile = () => {
       {userDataLoading ? (
         <span>Loading...</span>
       ) : (
-        <div>
-          <p>{`name : ${name}`}</p>
-          <p>{`email : ${email}`}</p>
-        </div>
+        <>
+          <div>
+            <p>{`name : ${name}`}</p>
+            <p>{`email : ${email}`}</p>
+          </div>
+          <button
+            className="logout"
+            onClick={() => {
+              logoutClicked();
+            }}
+          >
+            logout
+          </button>
+        </>
       )}
     </div>
   );

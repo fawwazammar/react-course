@@ -13,10 +13,15 @@ const Login = () => {
     authService
       .login(username, password)
       .then((res) => {
-        const cookieToken = res.data.token;
-        const cookieUser = res.data.user;
+        console.log(res);
+        const cookieToken = res.token;
+        const cookieUser = {
+          userId: res.userId,
+          username: res.username,
+        };
         setCookie('userData', JSON.stringify(cookieUser), 10000);
         setCookie('token', JSON.stringify(cookieToken), 10000);
+        window.location.replace('/produk');
       })
       .catch((err) => {
         console.log(err);

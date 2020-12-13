@@ -21,9 +21,13 @@ function setCookie(cname, cvalue, exdays) {
   document.cookie = `${cname}=${cvalue};${expires};domain=${domain};path=/`;
 }
 
+function deleteCookie(cname) {
+  setCookie(cname, '', -1);
+}
+
 const isUserAuthenticated = () => {
   if (getCookie('token')) return true;
   return false;
 };
 
-export { isUserAuthenticated, getCookie, setCookie };
+export { isUserAuthenticated, getCookie, setCookie, deleteCookie };

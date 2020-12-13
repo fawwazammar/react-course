@@ -4,6 +4,18 @@ import { isUserAuthenticated } from '../../utils/cookie';
 
 const Header = () => {
   const listMenu = ['home', 'profile', 'contact', 'infoCorona'];
+  const menuUserAuthenticated = () => {
+    if (isUserAuthenticated()) {
+      return (
+        <>
+          <Link to="/produk">
+            <div className="menu">produk</div>
+          </Link>
+        </>
+      );
+    }
+    return '';
+  };
   return (
     <div className="header">
       {listMenu.map((name) => {
@@ -13,7 +25,7 @@ const Header = () => {
           </Link>
         );
       })}
-      {isUserAuthenticated() ? <span>logout</span> : <div />}
+      {menuUserAuthenticated()}
     </div>
   );
 };

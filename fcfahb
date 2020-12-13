@@ -1,0 +1,108 @@
+[33mcommit 4a5e9e4129f1e030c08db0d37f13e83e22070d5b[m[33m ([m[1;36mHEAD -> [m[1;32muser-service[m[33m, [m[1;31morigin/user-service[m[33m)[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Nov 28 14:52:30 2020 +0700
+
+    feat: new user Service
+
+[33mcommit b9d4f81a28287bcbabcabd2225521bb48b693f70[m[33m ([m[1;31morigin/auth-and-rest[m[33m, [m[1;32mauth-and-rest[m[33m)[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Nov 28 13:52:34 2020 +0700
+
+    feat: add auth services
+
+[33mcommit c5fc98ae5b47d19b0f94cd8b01dc792c2f84097c[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Nov 28 13:07:52 2020 +0700
+
+    feat: add base Services
+
+[33mcommit 16534d70acd6a640e60c99499225af91cf0b653d[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sun Nov 22 12:31:48 2020 +0700
+
+    feat: login
+
+[33mcommit 19f452ebca4a9cd1ad3044eda182d31f1ef23852[m[33m ([m[1;31morigin/firebase_hook[m[33m)[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Nov 14 14:51:57 2020 +0700
+
+    feat: news per date page
+
+[33mcommit d076993b4424af5161e66f1533de0495cbf549be[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Tue Nov 3 15:34:58 2020 +0700
+
+    feat: add firebase
+
+[33mcommit a9efefe11b6213e0dd2fbad052fecfb7c2ffa183[m[33m ([m[1;31morigin/image_example[m[33m)[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Wed Oct 14 18:49:57 2020 +0700
+
+    feat : img example
+
+[33mcommit 712aefeb65f09e1c614b36fa581023a0002609bd[m
+Merge: c1a5599 a232ed8
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sun Oct 11 17:03:22 2020 +0700
+
+    feat: login state
+
+[33mcommit a232ed8a827e54310b202756a1b3aaa683d195f5[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sun Oct 11 16:58:19 2020 +0700
+
+     new Routing
+
+[33mcommit c1a5599d25c46d9e331ec774a4e02a9d3b3ce8d7[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Oct 10 15:13:39 2020 +0700
+
+    feat : route
+
+[33mcommit e09f3def00cbf97fb6806fbaceb7395468f17366[m[33m ([m[1;31morigin/introduction[m[33m)[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Tue Oct 6 20:10:07 2020 +0700
+
+    feat: first trial
+
+[33mcommit 37c6403319bb9b0991bf7d713593bbf04014800a[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Wed Sep 30 11:33:24 2020 +0700
+
+    react course
+
+[33mcommit f8b85eff4a74d8890c5e3a7f50f2774d94922f8d[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Sep 19 20:55:26 2020 +0700
+
+    add eslint rule
+
+[33mcommit 419763da3df622d29cbc25da92bc8114aa81df19[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Sat Sep 19 19:51:48 2020 +0700
+
+    fix : add rules eslintrc, change helmet to async
+
+[33mcommit b566c463bcf74893b0372fbb9c8bc4bd5101c651[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Mon Sep 7 20:37:03 2020 +0700
+
+    chore : add helmet, styled component, eslint@6.8.0
+
+[33mcommit 15afbb9104d0976b65b8f7c69861ff634ce5b291[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Mon Sep 7 14:07:52 2020 +0700
+
+    fix : remove eslint, switch to yarn
+
+[33mcommit f12cc16fbf9f01ee5702b5cf0f1acf1e4608da1f[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Mon Sep 7 13:42:28 2020 +0700
+
+    feat: add husky and linter'
+
+[33mcommit 4adbdee00fc1225bc6e1367d5c87df49c26f5e4d[m
+Author: andikaarif <andikapradanaarif@gmail.com>
+Date:   Mon Sep 7 13:40:53 2020 +0700
+
+    feat : init start project

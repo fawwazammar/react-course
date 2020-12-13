@@ -1,0 +1,14 @@
+.logout {
+  border-radius: 4px;
+  background-color: #e41b1be3;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
